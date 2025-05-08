@@ -1,0 +1,834 @@
+wsl --shutdown
+cd
+ls
+cd d
+d:
+cd /d
+cd d:
+d:\
+ls
+rm install.ps1
+ls
+irm get.scoop.sh -outfile 'install.ps1'
+do { irm get.scoop.sh -outfile 'install.ps1' }
+do -i { irm get.scoop.sh -outfile 'install.ps1' }
+ls
+la
+ls -a
+do -i { irm get.scoop.sh -outfile 'install.ps1' }
+do -i { irm get.scoop.sh -outfile 'install.ps1' } | complete
+do -i { irm get.scoop.sh -outfile 'install.ps1' | complete }
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+do -i { Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser }
+do -i { irm get.scoop.sh -outfile 'install.ps1' | complete }
+pwsh
+exit
+pwsh
+powershell
+scoop help
+exit
+scoop help
+scoop install -g 7zip git
+ls
+..
+ls
+cd scoop\
+ls
+cd usr\
+ls
+..
+cd global\
+ls
+cd apps\
+ls
+..
+cd usr\
+ls
+cd apps\
+ls
+..
+exit
+scoop install zig
+scoop install rust-gnu
+scoop bucket add java
+scoop install java/openjdk
+cargo --version
+..
+cd workspace\
+ls
+cd rust\
+ls
+cargo new t1
+ls
+cd t1\
+ls
+nv
+ls
+exit
+java --version
+scoop install main/nodejs-lts
+node -v
+exit
+node -v
+corepack list
+corepack -v
+scoop install main/pnpm
+ls
+exit
+git config --global user.name maidf
+git config --list
+cd javaquiz\
+ls
+mvn -v
+./mvnw spring-boot:run
+./mvnw spring-boot:run -X
+scoop install java/openjdk21
+cd javaquiz\
+cd uniquiz\
+pnpm dev:h5
+pnpm i
+..
+ls
+..
+git clone https://github.com/MichaelC001/Consolas-Nerd-LXGW-Wenkai-Mono.git
+la
+ls
+ls -a
+ls
+exit
+cd javaquiz\
+cd uniquiz\
+./mvnw spring-boot:run
+chcp
+chcp 65001
+./mvnw spring-boot:run
+exit
+chcp
+pnpm dev:h5
+cd javaquiz\
+chcp 65001 | complete
+chcp 65001 | complete | get exit_code
+chcp 65001 | complete | get exit_code | str join
+chcp 65001 | complete | get exit_code | get exit_code
+chcp 65001 | complete | get exit_code
+chcp 65001 | complete | exit_code
+chcp 65001 | complete | get exit_code
+chcp 65001 | complete | get stderr
+chcp 65001 | complete | o>|
+echo $env.chcp
+echo $env
+echo $env.LANG
+chcp 65001
+chcp
+echo $env.LANG
+chcp
+ls
+chcp
+ls
+chcp
+chcp 65001
+chcp 65001 | complete
+chcp 65001 | complete | ignore
+chcp
+cd javaquiz\
+cd uniquiz\
+pnpm dev:h5
+./mvnw spring-boot:run
+cd
+ls
+cd AppData\
+cd Roaming\nushell\
+ls
+..
+git clone git@github.com:maidf/nconf.git
+ls
+exit
+echo $env
+ls
+cd javaquiz\
+cd uniquiz\
+h5
+pnpm install @qiun/ucharts
+pnpm install sass sass-loader@10.1.1 -D
+后
+h5
+ls
+cd ..
+ls
+..
+ls
+git clone https://gitee.com/uCharts/uCharts.git
+ls
+cd ffquiz\
+cd uniquiz\
+h5
+cd javaquiz\
+h5
+..
+ls
+cd ffquiz\
+cd uniquiz\
+h5
+./mvnw spring-boot:run
+h5
+git rebase
+git rebase help
+git helprebase
+git help rebase
+cd javaquiz\
+cd uniquiz\
+h5
+run
+wsl --shutdown
+cargo new 2fa
+cargo new tfa
+scoop s rust
+scoop search rust-src
+scoop search rust-std
+cargo run -- add --name "fufu" --secret "TTOJRVSL4SZVMGLP"
+rustup set default-host zig
+scoop list
+scoop uninstall rust-gnu
+taskkill /PID 28216
+scoop uninstall rust-gnu
+taskkill /PID 28216 /F
+scoop uninstall rust-gnu
+scoop install main/rustup-gnu
+cargo run -- add --name "fufu" --secret "TTOJRVSL4SZVMGLP"
+rustup set default-host zig
+export CC="zig cc"
+cargo run -- add --name "fufu" --secret "TTOJRVSL4SZVMGLP"
+scoop install gcc
+cargo run -- add --name "fufu" --secret "TTOJRVSL4SZVMGLP"
+cargo add anyhow
+cargo run -- add --name "fufu" --secret "TTOJRVSL4SZVMGLP"
+cargo clean && cargo run -- add --name "fufu" --secret "TTOJRVSL4SZVMGLP"
+cargo clean; cargo run -- add --name "fufu" --secret "TTOJRVSL4SZVMGLP"
+cargo run -- list
+cargo run -- generate --name GitHub
+cargo run -- generate --name fufu
+cargo run generate --name fufu
+cargo run generate -- --name fufu
+cargo run generate --name fufu
+cargo run generate name fufu
+cargo run generate -name fufu
+cargo run generate
+cargo run generate fufu
+cargo clean; cargo run -- add --name "fufu" --secret "TTOJRVSL4SZVMGLP"
+cargo run -- add --name "fufu" --secret "TTOJRVSL4SZVMGLP"
+cargo run generate fufu
+cd javaquiz\
+cd uniquiz\
+ls
+docker compose -f 'compose.roketmq.yml' up -d --build
+docker pull apache/rocketmq:5.3.2
+docker search roket
+docker pull apache/rocketmq:5.3.2
+docker compose -f 'compose.roketmq.yml' up -d --build
+docker pull crazylychee/rocketmqdashboard
+docker search roket dashboard
+docker search dashboard
+cd roketmq\
+docker compose -f 'compose.roketmq.yml' up -d --build
+docker pull crazylychee/rocketmqdashboard:3.0
+docker pull apecloud/rocketmq-dashboard:2.0.0
+docker pull qaqwx/rocketmq-dashboard:2.0
+docker compose -f 'compose.roketmq.yml' up -d --build
+docker pull apacherocketmq/rocketmq-dashboard:latest
+docker compose -f 'compose.roketmq.yml' up -d --build
+docker run -d --name rocketmq-dashboard -e "JAVA_OPTS=-Drocketmq.namesrv.addr=rmqnamesrv:9876" -p 9908:8080 -t apacherocketmq/rocketmq-dashboard:latest
+docker compose -f 'compose.roketmq.yml' up -d --build
+ls
+alias
+$env.alias
+/d
+d:
+c:
+cd /d
+scoop install main/coreutils
+sudo scoop install -g aria2
+ls
+cd rmqdemo\
+run
+cd rmqdemo\
+mvn install
+./mvnw install
+mvn | complete
+do -i { mvn } | complete
+do -i { mvn | complete }
+mvn | complete | str
+mvn | complete | str join
+mvn | complete | get stderr
+do -i { mvn }
+bash
+mvn | external | str join
+mvn | str join
+do { mvn } | str join
+do { mvn }
+do { mvn } | complete
+do -e { mvn }
+do { mvn } | complete
+do { mvn } | complete | str join
+do { mvn } | complete | get stderr | str join
+do { mvn } | get err
+mvn install
+mvn -v
+cd rmqdemo\
+mvn -v
+mvn install
+run
+mvn install
+run
+ls
+claer
+clear
+cd roketmq\
+ls
+docker compose -f 'roketmq\compose.roketmq.yml' up -d --build
+..
+docker compose -f 'roketmq\compose.roketmq.yml' up -d --build
+run
+mvn install
+docker compose -f 'roketmq\compose.roketmq.yml' up -d --build
+run
+mvn install
+run
+mvn clean
+mvn install
+mvn dependency:tree
+mvn clean
+mvn install
+mvn clean
+mvn install
+run
+docker compose -f 'roketmq\compose.roketmq.yml' up -d --build
+mvn clean
+mvn install
+run
+mvn install
+run
+cd demo\
+run
+docker compose -f 'roketmq\compose.roketmq.yml' up -d --build
+run
+mvn install
+run
+cd demo\
+mvn clean
+mvn install
+run
+docker compose -f 'roketmq\compose.roketmq.yml' up -d --build
+cd demo\
+docker logs -f rocketmq-broker
+docker compose -f 'roketmq\compose.dashboard.yml' up -d --build
+docker compose -f 'rocketdashboard\compose.dashboard.yml' up -d --build
+docker compose -f 'rocketmq\compose.roketmq.yml' up -d --build
+run
+corepack -v
+corepack use yarn
+run
+cd frontend\
+ls
+yarn i
+do yarn i
+do { yarn i }
+yarn -v
+corepack use yarn
+..
+run
+ipconfig
+docker compose -f 'rocketmq\compose.roketmq.yml' up -d --build
+$ docker run -d --name rocketmq-dashboard -e "JAVA_OPTS=-Drocketmq.namesrv.addr=127.0.0.1:9876" -p 9906:8080 -t apacherocketmq/rocketmq-dashboard:latest
+docker run -d --name rocketmq-dashboard -e "JAVA_OPTS=-Drocketmq.namesrv.addr=127.0.0.1:9876" -p 9906:8080 -t apacherocketmq/rocketmq-dashboard:latest
+docker compose -f 'rocketmq\compose.roketmq.yml' up -d --build
+docker compose -f 'rocket\compose.yml' up -d --build
+docker compose -f 'rocketmq\compose.roketmq.yml' up -d --build
+run
+mvn dependency:resolve
+docker compose -f 'rocketmq\compose.roketmq.yml' up -d --build
+run
+ls
+git init
+docker info
+docker compose -f 'rocketmq\compose.roketmq.yml' up -d --build
+ls
+cd rocketmq\
+ls
+tree
+ls
+ls -L 3
+tree help
+tree --help
+tree -L 3 -f
+tree -f -L 3
+tree -f
+tree -L 3
+tree -f -L
+tree 
+docker compose -f 'rocketmq\compose.roketmq.yml' up -d --build
+..
+cd java\
+docker compose -f 'rocketmq\compose.roketmq.yml' up -d --build
+helm version
+wsl --shutdown
+exit
+echo 123 | base64
+123 | base64
+123 | encode base64
+"123" | encode base64
+kubeadm config images pull --image-repository k8s-gcr.m.daocloud.io
+kind create cluster --name kind --image m.daocloud.io/docker.io/kindest/node:v1.22.1
+kubeadm config images pull --image-repository k8s-gcr.m.daocloud.io
+podman machine ssh
+kubectl get all
+kubectl get nodes -o wide
+kubectl exec -it mysql-0 -- mysql -u root -p
+netsh interface portproxy add v4tov4 listenport=30096 connectaddress=10.89.0.2 connectport=30096
+sudo netsh interface portproxy add v4tov4 listenport=30096 connectaddress=10.89.0.2 connectport=30096
+kubectl get nodes -o wide
+ipconfig
+ip
+ip a
+netstat -ano
+lsof -i :30080
+scoop install lsof
+netstat -ano
+netstat -ano | findstr ":30080"
+kubectl get nodes -o wide
+kubectl exec -it mysql-0 -- mysql -u root -p
+kubectl port-forward service/mysql-service 30080:3306
+exit
+kubectl ip a
+kubectl exec ip a
+kubectl top
+kubectl ls
+kubectl
+ipconfig
+ipconfig -a
+ipconfig /all
+kubectl
+kubectl exec ip -a
+kubectl exec ip a
+kubectl exec mysql-0 ip a
+kubectl exec pod/mysql-0 ip a
+kubectl get nodes -o wide
+kubectl exec -h
+kubectl exec pod/mysql-0 -- ip a
+kubectl exec pod/mysql-0 -- ip -a
+kubectl exec pod/mysql-0 -- ip a
+kubectl exec mysql-0 -- ip a
+kubectl port-forward service/mysql-service 30006:30006
+kubectl port-forward service/mysql-service 30006:3306
+kubectl port-forward pod/mysql-0 30006:3306
+kubectl port-forward pod/mysql-0 50000:3306
+kubectl port-forward mysql-0 50000:3306
+kubectl auth can-i create pods/portforward
+kubectl port-forward mysql-0 50000:3306
+kubectl port-forward service/mysql-service 30006:3306
+kind get clusters
+sudo kind get clusters
+kind get clusters
+docker -v
+kind get clusters
+cd demo\rocketmq\
+ls
+podman compose up
+cd demo\rocketmq\
+podman compose up
+cd demo\rocketmq\
+podman compose up
+cd demo\rocketmq\
+podman compose up
+podman compose up -f compose.roketmq.yml
+podman compose -f compose.roketmq.yml up
+podman compose
+podman compose -f compose.roketmq.yml up
+sudo podman compose -f compose.roketmq.yml up
+podman machine init
+cd demo\
+ls
+run
+sudo podman compose -f compose.roketmq.yml up
+sudo podman compose -f compose.roketmq.yml up -d
+podman compose -f compose.roketmq.yml up -d
+podman
+podman network
+podman network ls
+cd demo\
+ipconfig
+docker compose -f 'demo\rocketmq\compose.roketmq.yml' up -d --build
+cd demo\
+docker compose -f 'demo\rocketmq\compose.roketmq.yml' up -d --build
+run
+netstat -ano | findstr ":9990"
+netstat -ano | findstr ":9991"
+netstat -ano | findstr ":9992"
+netstat -ano | findstr ":10032"
+netstat -ano | findstr ":10033"
+netstat -ano | findstr ":10034"
+netstat -ano | findstr ":10035"
+netstat -ano | findstr ":10036"
+netstat -ano | findstr ":10037"
+docker compose -f 'demo\rocketmq\compose.roketmq.yml' up -d --build
+docker compose -f 'rocketmq\compose.roketmq.yml' up -d --build
+wsl -l -v
+wsl --unregister podman-net-usermode
+wsl --unregister podman-machine-default
+wsl -l -v
+wsl --unregister mlNix
+wsl -l -v
+docker compose -f 'ffquiz\docker\compose.yml' up -d --build
+docker compose -f 'ffquiz\docker\ffquiz\compose.yml' up -d --build
+ls
+cd ffquiz\uniquiz\
+ls
+rm -rf node_modules\
+docker compose -f 'ffquiz\docker\ffquiz\compose.yml' up -d --build
+curl localhost:5173
+docker compose -f 'ffquiz\docker\ffquiz\compose.yml' up -d --build
+cd ffquiz\javaquiz\
+scoop install bun
+scoop ls
+scoop list
+scoop uninstall nodejs-lts
+scoop install bun
+cd ffquiz\uniquiz\
+ls
+bun i
+bun dev:h5
+cd ffquiz\uniquiz\
+cd javaquiz\
+cd uniquiz\
+cd javaquiz\
+cd uniquiz\
+cd my_iced\
+cd mouse\
+..
+rm -rf mouse\
+rm -rf test_app\ t1\
+cd my_iced\
+cargo run
+。。
+..
+rm -rf my_iced\
+cargo run
+cargo new t1
+cd D:\workspace
+ls
+rm -rf drawdb\ inam\
+ls
+cargo new yys1
+rm -rf yys1\
+bun create tauri-app
+cd yys1\
+cargo tauri dev
+..
+rm -rf yys1\
+bun create tauri-app
+cd yys1\
+bun i
+bun dev
+bun run tauri dev
+bun tauri init
+bun run tauri dev
+scoop uninstall gcc
+bun run tauri dev
+scoop install clang
+scoop bucket add versions
+scoop install versions/mingw-winlibs-llvm
+scoop bucket add versions
+scoop install main/llvm
+bun run tauri dev
+cd yys1\
+bun run tauri dev
+rustup 
+rustup toolchain
+rustup toolchain list
+bun run tauri dev
+scoop uninstall openjdk
+bun dev
+bun tauri
+bun t
+bun run t
+bun tauri
+bun tauri dev
+bun run tauri dev
+bun t
+bun add element-plus
+bun i -D unplugin-vue-components unplugin-auto-import
+bun t
+bun add pinia
+rustup set default-host
+rustup set default-host clang
+rustup host
+rustup set default-host --help
+rustup
+rustup set
+rustup set default-host
+rustup set default-host clang
+clang
+clang -v
+rustup set default-host clang
+rustup set default-host x86_64-pc-windows-gnu
+scoop uninstall llvm
+scoop list
+scoop uninstall rustup-gnu
+scoop uninstall pnpm
+scoop list
+scoop bucket add anderlli0053_DEV-tools https://github.com/anderlli0053/DEV-tools
+scoop uninstall coreutils
+scoop bucket add versions
+scoop uninstall aria2
+sudo scoop uninstall aria2
+sudo scoop uninstall aria2 -g
+scoop bucket add versions
+scoop bucket rm versions
+scoop bucket add versions
+scoop install versions/mingw-winlibs-llvm-ucrt
+scoop install main/rustup-gnu
+scoop install main/rustup-msvc
+ls
+cargo run
+bun t
+scoop list
+scoop uninstall rustup-msvc
+bun t
+cargo -V
+scoop uninstall rustup-gnu
+scoop install rustup-gnu
+bun t
+rustup default stable
+bun t
+cargo --version
+bun t
+ls
+cd src-tauri\
+ls
+rm yys.db
+sudo rm yys.db
+ls
+sudo rm yys.db
+rm yys.db
+..
+bun t
+bun add router
+bun rm router
+bun add vue-router@4
+bun t
+ls
+cd src\
+ls
+tree
+tree -L 3
+tree L 3
+tree
+tree help
+tree --help
+eza
+ls
+ls -L 3
+ls -l 3
+ls --help
+tree
+scoop install tree
+scoop search tree
+scoop search eza
+scoop install eza
+eza -L 3
+ls
+eza -T
+..
+ls
+bun t
+cargo tauri build
+bun tauri build
+bun t
+bun tauri add window-state
+bun tauri rm window-state
+bun tauri remove window-state
+bun t
+sqlx migrate add change_type
+cd src-tauri\
+sqlx migrate add change_type
+..
+cd src-tauri\
+cargo install sqlx
+cargo install sqlx-cli
+sqlx migrate add change_type
+sqlx migrate add init
+sqlx migrate add add_res_icon_table
+sqlx migrate --help
+sqlx migrate info
+sqlx migrate revert add_res
+sqlx migrate revert
+..
+bun t
+pnpm run dev:h5
+start
+nu start nu
+nu start.nu
+nohub
+nu start.nu
+scoop install main/uutils-coreutils
+nu start.nu
+which nohub
+scoop uninstall main/uutils-coreutils
+scoop install main/coreutils
+which nohub
+nu start.nu
+which nohub
+scoop uninstall main/coreutils
+scoop install busybox
+which nohub
+lsof
+ss
+scoop install main/uutils-coreutils
+scoop uninstall busybox
+scoop uninstall main/uutils-coreutils
+scoop install main/uutils-coreutils
+scoop install main/uutils-coreutils-lean
+uname
+lsof
+nu start.nu
+ls
+rm -rf demo\
+sudo rm -rf demo\
+cd javaquiz\
+ls
+./gradlew spring-boot:run
+cd javaquiz\
+gra
+cd javaquiz\
+gra
+cd uniquiz\
+h5
+bun h5
+cd uniquiz\
+gra
+..
+cd javaquiz\
+gra
+cd uniquiz\
+git rebase HEAD
+git rebase HEAD-1
+git rebase HEAD~1
+git rebase help
+git rebase --help
+git commit --amend 修改一下题库和试卷的添加删除方法,顺便试用一下gradle
+git commit --amend -m 修改一下题库和试卷的添加删除方法,顺便试用一下gradle
+git reset --hard HEAD@{1}
+git rebase -i HEAD~1
+git push forch
+git push --help
+git push --force
+ls
+rm -rf maid-cloud\
+sudo rm -rf maid-cloud\
+rm -rf maid-cloud\
+mvn
+mvn clean install
+mvn install
+docker compose -f 'maid-cloud\compose.yml' up -d --build
+cd services\service-order\
+mvn
+..
+cd service-order\
+../../mvnw spring-boot:run
+../../mvnw spring-boot:run -X
+mvn clean
+mvn clean
+mvn
+mvn -X
+mvn spring-boot:run -X
+./mvnw spring-boot:run -X
+mvn spring-boot:run -X
+./mvnw spring-boot:run -X
+docker compose -f 'maid-cloud\compose.yml' up -d --build
+netstat -ano | findstr ":8080"
+netstat -ano | findstr ":8081"
+mvn
+./mvnw spring-boot:run service-order
+mv maid-cloud\ docker\
+cd services\service-order\
+cd services\service-product\
+mvn
+ls
+cd services\service-order\
+cd services\service-product\
+cd services\service-order\
+mvn spring-boot:run -Dspring-boot.run.jvmArguments="-Dserver.port=9903"
+ss 8080
+$os
+$env
+$env.os
+ss 9901
+check
+check_port
+check
+ss 9901 | str join
+ss 9901 | str join | str contains is in use
+ss 9901 | str join | str contains "is in use"
+ss 9901 | str contains "is in use"
+check
+cd services\service-product\
+mvn run new
+cd services\service-product\
+mvn run new
+cd services\service-product\
+mvn new
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+ss 9904
+ss 9903
+new mvn
+ss 9904
+ss 9904 | str contains "is in use"
+ss 9904 | str join | str contains "is in use"
+ss 9904
+ss 9903
+ss 9904 | into string
+ss 9904 | into string | str join
+ss 9904 | into string | str contains "is in use"
+ss 9903
+ss 9904 | parse
+ss 9904 | parse msg
+ss 9904 | str fill -c ' '
+ss 9904 | fill -c ' '
+ss 9904 | fill -c ' ' -w 10
+ss 9904 | fill -c '0' -w 10
+ss 9904 | fill -a right -c '0' -w 10
+ss 9904 | str join | fill -a right -c '0' -w 10
+ss 9904 | str contains "is available"
+netstat -ano | findstr $port
+netstat -ano | findstr 9904
+netstat -ano | findstr 9904 | is-empty
+ss 9904
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+cd services\service-product\
+new mvn
+cd services\service-product\
