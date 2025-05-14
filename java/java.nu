@@ -32,17 +32,12 @@ export def mvn [
 
 # 寻找一个端口启动 springboot
 export def "mvn new" [] {
-	mut port = 9901
-	mut used = ss $port | str contains "is in use"
-	while $used == true {
-		$port += 1
-		$used = ss $port | str contains "is in use"
-	}
+	mut port = sp
 	./mvnw spring-boot:run -Dspring-boot.run.jvmArguments=$"-Dserver.port=($port)"
 }
 
 
-export def gra [
+def gra [
 	arg: string = "boot",
 	--v(-v)
 ] {

@@ -23,6 +23,7 @@ $env.config = {
 
 use bun *
 use java *
+use scoop *
 
 alias ll = ls -l
 alias la = ls -a
@@ -33,9 +34,25 @@ alias repl = nix repl
 alias neo = fastfetch
 alias nv = nvim
 
+
 def gc [] {
     sudo nix store gc --debug
     sudo nix-collect-garbage --delete-old
+}
+
+# 寻找一个可用端口
+def sp [
+    use_port: int=10032  # 端口寻址起始位置 10032
+    --middleware (-m)  # 中间件默认值 11032
+] {
+    mut port = $use_port
+    if $middleware {
+        $port = 11032
+    }
+    while (ss $port | str contains "is in use") {
+        $port += 1
+    }
+    $port
 }
 
 def ss [port: int] {
@@ -58,7 +75,7 @@ def ss [port: int] {
 }
 
 def greet1 [name = 'ru', ...ex] {
-  $"hello ($name) ($ex)"
+  $"hello ($name) (...$ex)"
 }
 
 

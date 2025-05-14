@@ -1,0 +1,1 @@
+export use scoop.nu *

@@ -832,3 +832,271 @@ new mvn
 cd services\service-product\
 new mvn
 cd services\service-product\
+mvn install
+mvn clean install
+mvn clean
+mvn install
+mvn clean
+mvn install
+mvn clean
+mvn install
+mvn clean
+mvn install
+cd services\service-order\
+mvn install
+cd services\service-order\
+mvn
+mvn clean
+mvn install
+cd service-order\
+cd service-product\
+mvn
+..
+mvn install
+cd service-order\
+cd service-product\
+cd service-order\
+cd service-product\
+ls
+rm -rf maid-cloud\
+scoop update
+scoop search zed
+scoop install extras/zed
+scoop bucket add extras
+scoop install extras/zed
+sc ui zed
+sc
+sc list
+sc ui zig uutils-coreutils-lean utils-coreutils
+sc ui uutils-coreutils
+sc i uutils-coreutils
+sc list
+sc ls
+sc
+sc cleanup
+sc cleanup -a
+sc cleanup a
+sc cleanup all
+sc cleanup --all
+sc cleanup -a
+sc cleanup --help
+sc cleanup help
+sc help cleanup
+sc cleanup -a
+sc cleanup --all
+sc cleanup -a
+sc cleanup *
+sc cleanup -k
+sc cleanup -c
+sc cleanup -cache
+sc cleanup -a
+sc help cleanup
+sc help cache
+sc cache rm show
+sc cache rm -a
+sc ls
+sc help
+sc
+sc ls
+ss 9901
+sc i zed
+zed .
+sc ui zed
+mvn install
+cd service-product\
+mvn
+mvn install
+\mvn
+mvn install
+..
+cd service-order\
+mvn install
+cd service-order\
+cd service-order\
+cd service-product\
+mvn -v
+$mvn
+^mvn
+^mvn -v
+cd service-order\
+^mvn -v
+cd service-order\
+mvn
+ss 9901
+mvn
+mvn new
+..
+cd service-product\
+mvn
+ss 9902
+cd service-order\
+mvn
+cd service-order\
+mvn dependency:tree
+bun create vue
+rm -rf vedio\
+bun create vue
+rm -rf vedio\
+bun create vue
+cd maidvedio\
+bun i webtorrent
+bun add webtorrent
+bun dev
+bun i
+bun list
+bun run list
+sc s yarn
+sc s yarn berry
+sc s nodejs
+sc i nodejs
+npm -v
+node -v
+npm -v
+corepack disable npm
+corepack -v
+npm -v
+corepack enable yarn
+yarn -v
+corepack enable yarn@latest
+corepack enable yarn2
+corepack list
+corepack pack
+corepack -h
+corepack yarn -v
+yarn set berry
+yarn set version berry
+yarn -v
+corepack yarn -v
+corepack disable yarn
+pnpm -v
+corepack enable yarn2
+corepack enable yarn@latest
+corepack enable yarn@4.9.1
+corepack use yarn@4.9.1
+yarn -v
+cd maidvedio\
+corepack use yarn@latest
+yarn i
+corepack yarn -v
+corepack yarn i
+corepack yarn install
+corepack yarn dev
+..
+ls
+rm -rf maidvedio\
+corepack yarn create vue
+cd mvedio\
+corepack yarn add webtorrent
+corepack yarn -v
+corepack use yarn@latest
+yarn -v
+corepack yarn -v
+corepack yarn add webtorrent
+corepack yarn dev
+corepack use pnpm@latest
+corepack pnpm dev
+corepack use npm
+npm -v
+corepack npm -v
+corepack npm clean
+corepack npm i
+corepack disable yarn
+corepack disable pnpm
+corepack eable npm
+corepack enable npm
+corepack npm i
+rm -rf node_modules\
+corepack npm i
+corepack npm run dev
+..
+rm -rf node_modules\
+rm -rf mvedio\
+corepack npm create vue
+cd mvedio\
+corepack npm i webtorrent
+cd mvedio\
+corepack npm run dev
+bun -v
+sc ui nodejs
+..
+rm -rf mvedio\
+bun create vue
+cd mvi\
+bun add @ffmpeg/ffmpeg @ffmpeg/core
+..
+cargo new mv
+cd mv
+cd mv\
+cargo run
+cargo add torrent-bootstrap
+cargo add rqbit
+cargo add rqbit
+cargo add librqbit
+cargo add tokio
+cargo add anyhow
+cargo add tracing
+cargo add anyhow
+cargo add tracing-subscriber
+..
+ls
+aria2 magnet:?xt=urn:btih:XDNVPACYMDJ6SUKFWYMMUXRY2HTLQKYJ
+aria2c magnet:?xt=urn:btih:NXOK347PL5K5OKCF4MCD7TP5CRRAN33Y
+aria2c --dir=./ magnet:?xt=urn:btih:NXOK347PL5K5OKCF4MCD7TP5CRRAN33Y
+aria2c --dir=./ "magnet:?xt=urn:btih:NXOK347PL5K5OKCF4MCD7TP5CRRAN33Y"
+aria2 --dir=./ "magnet:?xt=urn:btih:NXOK347PL5K5OKCF4MCD7TP5CRRAN33Y"
+aria2c
+sc i aria2
+sudo sc i aria2 -g
+sudo scoop i aria2 -g
+sudo scoop install aria2 -g
+aria2 --dir=./ "magnet:?xt=urn:btih:NXOK347PL5K5OKCF4MCD7TP5CRRAN33Y"
+aria2c --dir=./ "magnet:?xt=urn:btih:NXOK347PL5K5OKCF4MCD7TP5CRRAN33Y"
+sc s motrix
+sc i motrix
+wsl -l -v
+exit
+wsl
+ls
+wsl
+..
+ls
+cd Arch\
+ls
+./Arch.exe config --default-user mf
+exit
+sc s rqbit
+cd mvi\
+mv mv mvedio
+..
+mv mv mvedio
+cd mvi\
+bun add webtorrent
+bun dev
+bun add http-node
+bun dev
+bun add buffer stream
+bun dev
+ls
+rm -rf node_modules\
+sc i nodejs
+npm i
+cd mvi\
+npm i
+npm run dev
+sc ui nodejs
+mvn install
+ss 9901
+ss 9901 | str contains "is in use"
+sp
+mvn new
+ls
+rm -rf maid-cloud\
+cd service-order\
+mvn new
+ss 10032
+sp
+sp -m
+sp -m 9901
+cd service-order\
+mvn
+mvn new
